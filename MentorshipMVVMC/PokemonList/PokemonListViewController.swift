@@ -8,20 +8,39 @@
 import UIKit
 import Combine
 
-class PokemonListViewController: UIViewController, Storyboarded {
+class PokemonListViewController: UIViewController, UITableViewDelegate, Storyboarded {
     
     var subscribers = [AnyCancellable]()
-        
     var coordinator: MainCoordinator?
     var pokemonListViewModel: PokemonListViewmodel!
     
+    let tableView: UITableView = {
+        let table = UITableView()
+        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        return table
+    }()
+    
+    var datasource: UITableViewDiffableDataSource<Int, Pokemon>!
+    var pokemons = [Pokemon]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.delegate = self
+        view.addSubview(tableView)
+        tableView.frame = view.bounds
+        datasource = UITableViewDiffableDataSource(tableView: tableView, cellProvider: { tableView, indexPath, itemIdentifier in
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+            cell.textLabel?.text = itemIdentifier.name
+            return cell
+        })
+        
         subscribeToEvents()
         //TASK hay una mejor forma, un scope dentro del VM?
         Task {
             await pokemonListViewModel.fetchPokemons()
         }
+        
+        title = "Pokemons"
     }
     
     func subscribeToEvents() {
@@ -44,6 +63,10 @@ class PokemonListViewController: UIViewController, Storyboarded {
     }
     
     private func loadData(pokemons: PokemonList) {
+        var snapshot = NSDiffableDataSourceSnapshot<Int, Pokemon>()
+        snapshot.appendSections([1])
+        snapshot.appendItems(pokemons.results)
+        datasource.apply(snapshot)
         
     }
     
