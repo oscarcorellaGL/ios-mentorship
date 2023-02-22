@@ -17,34 +17,37 @@ class PokemonListViewController: UIViewController, Storyboarded {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        subscribeToEvents()
+        //TASK hay una mejor forma, un scope dentro del VM?
+        Task {
+            await pokemonListViewModel.fetchPokemons()
+        }
     }
-    
     
     func subscribeToEvents() {
         pokemonListViewModel.isLoading
             .receive(on: DispatchQueue.main)
             .sink { isLoading in
-                
+                self.updateLoadingState(isLoading: isLoading)
             }
             .store(in: &subscribers)
         pokemonListViewModel.pokemons
             .receive(on: DispatchQueue.main)
             .sink { [weak self] pokemons in
-                self?.loadData()
+                self?.loadData(pokemons: pokemons)
             }
             .store(in: &subscribers)
     }
     
-    func loadData() {
+    private func updateLoadingState(isLoading: Bool) {
+        
+    }
+    
+    private func loadData(pokemons: PokemonList) {
         
     }
     
     @IBAction func cancelButtonClicked(_ sender: Any) {
-        //TASK hay una mejor forma, un scope dentro del VM?
-//        Task {
-//            await pokemonListViewModel.fetchPokemons()
-//        }
         coordinator!.seeDetails()
     }
 

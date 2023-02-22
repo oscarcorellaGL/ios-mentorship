@@ -15,7 +15,6 @@ struct FetchPokemonService {
   }
 }
 
-// MARK: - AnimalFetcher
 extension FetchPokemonService: PokemonsFetcher {
   func fetchPokemons() async -> PokemonList {
     let requestData = PokemonRequest.getPokemonList
