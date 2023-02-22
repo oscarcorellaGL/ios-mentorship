@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "22354207-82BA-4640-879C-C05F3AC22386"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D247E1BE-E28E-4FD0-AC85-92A10168D9EA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/MainCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "seeDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8C51B05-064E-43D2-A9B3-0570D529D81C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/MainCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51AD45C5-4217-4377-B6B8-B1531999B1B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE649DF0-DFC9-4F53-950A-37276D7D455C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/Storyboarded.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "instantiate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E89D66DB-84EE-41D1-8768-C970D2C07A12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/PokemonList/PokemonDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5272632D-515A-441C-8BC3-43F30F23454F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "cancelButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E6DFAC6-3563-485F-BA52-EBD59BF841BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/PokemonList/PokemonListViewmodel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchPokemons()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E6DFAC6-3563-485F-BA52-EBD59BF841BE - 1a534efe101bcc0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MentorshipMVVMC.PokemonListViewmodel.fetchPokemons() async -&gt; ()"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/PokemonList/PokemonListViewmodel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  uuid = "0E6DFAC6-3563-485F-BA52-EBD59BF841BE - 957cbeaea634fa3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for MentorshipMVVMC.PokemonListViewmodel.fetchPokemons() async -&gt; ()"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/PokemonList/PokemonListViewmodel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "0E6DFAC6-3563-485F-BA52-EBD59BF841BE - eb082e786f050e11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MentorshipMVVMC.PokemonListViewmodel.fetchPokemons() async -&gt; ()"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/PokemonList/PokemonListViewmodel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3038D68C-47EE-4709-B15C-FECD80151178"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/PokemonList/PokemonListViewmodel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchPokemons()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4B8C0C0-C7D4-40B5-97FC-4B3AE787BEBA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/PokemonList/Data/API/FetchPokemonsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchPokemons()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5CCDF63-A5A8-434A-964A-8FA57389471F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/PokemonList/Data/API/FetchPokemonsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchPokemons()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37B11CC3-B61B-4787-A01D-3049CF0393AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/Common/Data/APIManagerProtocol.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "perform(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "37B11CC3-B61B-4787-A01D-3049CF0393AE - 89c6dcf8e8b19c10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MentorshipMVVMC.APIManager.perform(MentorshipMVVMC.RequestProtocol) async throws -&gt; Foundation.Data"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/Common/Data/APIManagerProtocol.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "245">
+               </Location>
+               <Location
+                  uuid = "37B11CC3-B61B-4787-A01D-3049CF0393AE - 89c6dcf8e8b19c10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MentorshipMVVMC.APIManager.perform(MentorshipMVVMC.RequestProtocol) async throws -&gt; Foundation.Data"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/Common/Data/APIManagerProtocol.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "497">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E15BCED7-CE4B-4B68-A71B-5174DAFB2C50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/Common/Data/APIManagerProtocol.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "perform(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E15BCED7-CE4B-4B68-A71B-5174DAFB2C50 - f9ace7e478b8c031"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MentorshipMVVMC.APIManager.perform(MentorshipMVVMC.RequestProtocol) async throws -&gt; Foundation.Data"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/Common/Data/APIManagerProtocol.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  uuid = "E15BCED7-CE4B-4B68-A71B-5174DAFB2C50 - 28e7fcc7eb013b0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for MentorshipMVVMC.APIManager.perform(MentorshipMVVMC.RequestProtocol) async throws -&gt; Foundation.Data"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/Common/Data/APIManagerProtocol.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "E15BCED7-CE4B-4B68-A71B-5174DAFB2C50 - 89c6dcf8e8b19c33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MentorshipMVVMC.APIManager.perform(MentorshipMVVMC.RequestProtocol) async throws -&gt; Foundation.Data"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/Common/Data/APIManagerProtocol.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  uuid = "E15BCED7-CE4B-4B68-A71B-5174DAFB2C50 - 51f3c07690b23634"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for MentorshipMVVMC.APIManager.perform(MentorshipMVVMC.RequestProtocol) async throws -&gt; Foundation.Data"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/Common/Data/APIManagerProtocol.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "71">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79D932D5-1A11-49C1-81B2-5B25B28E9194"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/Common/Data/RequestProtocol.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "createURLRequest()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9979491B-2C41-4E10-AE40-C5A5F0DE369A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/Common/Data/RequestProtocol.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "createURLRequest()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC73F282-47BC-4DFA-B490-8CD1EDB5AC82"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/Common/Data/RequestManagerProtocol.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "perform(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F09783F2-E775-48EF-AEDE-C2B58CC88D84"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/PokemonList/PokemonListViewmodel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchPokemons()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F09783F2-E775-48EF-AEDE-C2B58CC88D84 - 1a534efe101bcd73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MentorshipMVVMC.PokemonListViewmodel.fetchPokemons() async -&gt; ()"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/PokemonList/PokemonListViewmodel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  uuid = "F09783F2-E775-48EF-AEDE-C2B58CC88D84 - 957cbeaea634fb41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for MentorshipMVVMC.PokemonListViewmodel.fetchPokemons() async -&gt; ()"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/PokemonList/PokemonListViewmodel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  uuid = "F09783F2-E775-48EF-AEDE-C2B58CC88D84 - eb082e786f050f6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MentorshipMVVMC.PokemonListViewmodel.fetchPokemons() async -&gt; ()"
+                  moduleName = "MentorshipMVVMC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oscar.corella/Documents/ios/MentorshipMVVMC/MentorshipMVVMC/PokemonList/PokemonListViewmodel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DDC991A-3AA6-4467-9B8A-B39F9CFAA151"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/PokemonList/PokemonListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "cancelButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
