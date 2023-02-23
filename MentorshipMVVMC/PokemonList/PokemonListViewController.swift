@@ -28,6 +28,7 @@ class PokemonListViewController: UIViewController, UITableViewDelegate, Storyboa
         tableView.delegate = self
         view.addSubview(tableView)
         tableView.frame = view.bounds
+        //Cómo hacer un custom view?
         datasource = UITableViewDiffableDataSource(tableView: tableView, cellProvider: { tableView, indexPath, itemIdentifier in
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
             cell.textLabel?.text = itemIdentifier.name
@@ -46,7 +47,7 @@ class PokemonListViewController: UIViewController, UITableViewDelegate, Storyboa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let selectedPokemon = datasource.itemIdentifier(for: indexPath)
-        coordinator!.seeDetails()
+        coordinator!.seeDetails(pokemon: selectedPokemon!)
     }
     
     func subscribeToEvents() {
@@ -74,10 +75,6 @@ class PokemonListViewController: UIViewController, UITableViewDelegate, Storyboa
         snapshot.appendItems(pokemons.results)
         datasource.apply(snapshot)
         
-    }
-    
-    @IBAction func cancelButtonClicked(_ sender: Any) {
-        coordinator!.seeDetails()
     }
 
 }

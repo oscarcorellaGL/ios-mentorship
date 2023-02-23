@@ -10,10 +10,11 @@ import UIKit
 class PokemonDetailsViewController: UIViewController, Storyboarded {
     
     var coordinator: MainCoordinator?
+    var selectedPokemon: Pokemon!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = selectedPokemon.name
         // Do any additional setup after loading the view.
     }
     

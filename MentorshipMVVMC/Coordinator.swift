@@ -13,5 +13,5 @@ protocol Coordinator {
     var navigationController: UINavigationController { get set }
     
     func start()
-    func seeDetails()
+    func seeDetails(pokemon: Pokemon)
 }
