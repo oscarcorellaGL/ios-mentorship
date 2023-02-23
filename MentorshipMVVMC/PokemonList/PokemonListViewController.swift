@@ -43,6 +43,12 @@ class PokemonListViewController: UIViewController, UITableViewDelegate, Storyboa
         title = "Pokemons"
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let selectedPokemon = datasource.itemIdentifier(for: indexPath)
+        coordinator!.seeDetails()
+    }
+    
     func subscribeToEvents() {
         pokemonListViewModel.isLoading
             .receive(on: DispatchQueue.main)
