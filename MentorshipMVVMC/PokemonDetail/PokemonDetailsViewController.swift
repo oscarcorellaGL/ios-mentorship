@@ -9,24 +9,18 @@ import UIKit
 
 class PokemonDetailsViewController: UIViewController, Storyboarded {
     
-    var coordinator: MainCoordinator?
+    @IBOutlet weak var details: UILabel!
+    
+    var coordinator: PokemonDetailsCoordinator?
     var selectedPokemon: Pokemon!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = selectedPokemon.name
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func buttonClicked(_ sender: Any) {
+        coordinator?.goBackToList()
     }
-    */
-
+    
 }

@@ -10,28 +10,22 @@ import Combine
 
 class PokemonListViewController: UIViewController, UITableViewDelegate, Storyboarded {
     
+    @IBOutlet weak var tableView  : UITableView!
+    
     var subscribers = [AnyCancellable]()
     var coordinator: MainCoordinator?
     var pokemonListViewModel: PokemonListViewmodel!
-    
-    let tableView: UITableView = {
-        let table = UITableView()
-        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        return table
-    }()
-    
     var datasource: UITableViewDiffableDataSource<Int, Pokemon>!
     var pokemons = [Pokemon]()
     
+    //Todo en este lifecycle, separarlo en más lifecycles?
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
-        view.addSubview(tableView)
         tableView.frame = view.bounds
-        //Cómo hacer un custom view?
         datasource = UITableViewDiffableDataSource(tableView: tableView, cellProvider: { tableView, indexPath, itemIdentifier in
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-            cell.textLabel?.text = itemIdentifier.name
+            let cell = tableView.dequeueReusableCell(withIdentifier: "pokemoncell", for: indexPath) as! PokemonTableViewCell
+            cell.name.text = itemIdentifier.name
             return cell
         })
         
@@ -74,8 +68,7 @@ class PokemonListViewController: UIViewController, UITableViewDelegate, Storyboa
         snapshot.appendSections([1])
         snapshot.appendItems(pokemons.results)
         datasource.apply(snapshot)
-        
     }
-
+    
 }
 

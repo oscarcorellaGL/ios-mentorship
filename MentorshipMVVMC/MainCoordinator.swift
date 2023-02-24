@@ -28,7 +28,7 @@ class MainCoordinator: Coordinator {
     
     func seeDetails(pokemon: Pokemon) {
         let vc = PokemonDetailsViewController.instantiate()
-        vc.coordinator = self
+        vc.coordinator = PokemonDetailsCoordinator(navigationController: navigationController)
         vc.selectedPokemon = pokemon
         navigationController.pushViewController(vc, animated: true)
 //        print(navigationController.viewControllers.count)
