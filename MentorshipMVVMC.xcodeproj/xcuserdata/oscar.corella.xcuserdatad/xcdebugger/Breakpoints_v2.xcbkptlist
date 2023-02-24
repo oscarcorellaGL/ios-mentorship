@@ -14,8 +14,8 @@
             filePath = "MentorshipMVVMC/MainCoordinator.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "start()"
             landmarkType = "7">
          </BreakpointContent>
@@ -350,6 +350,22 @@
             startingLineNumber = "28"
             endingLineNumber = "28"
             landmarkName = "fetchPokemons()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B2F2CB5-8EE9-4A52-9E89-D6E731D9397A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MentorshipMVVMC/PokemonList/Data/API/FetchPokemonDetailsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fetchPokemonDetails(name:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

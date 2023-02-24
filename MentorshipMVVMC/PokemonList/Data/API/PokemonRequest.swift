@@ -8,14 +8,19 @@
 import Foundation
 
 enum PokemonRequest: RequestProtocol {
-  case getPokemonList
-  case getPokemonBy
+    case getPokemonList
+    case getPokemonDetails(name: String)
 
-  var path: String {
-    "pokemon/"
-  }
+    var path: String {
+        switch self {
+        case .getPokemonList:
+            return "pokemon/"
+        case .getPokemonDetails(let name):
+            return "pokemon/"+name
+        }
+    }
 
-  var requestType: RequestType {
+    var requestType: RequestType {
     .GET
-  }
+    }
 }
