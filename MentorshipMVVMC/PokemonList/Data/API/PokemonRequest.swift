@@ -16,7 +16,7 @@ enum PokemonRequest: RequestProtocol {
         case .getPokemonList:
             return "pokemon/"
         case .getPokemonDetails(let name):
-            return "pokemon/"+name
+            return "pokemon/\(name)"
         }
     }
 

@@ -13,6 +13,7 @@ protocol PokemonsFetcher {
 }
 
 final class PokemonListViewmodel {
+    
     var isLoading = CurrentValueSubject<Bool, Never>(false)
     var pokemons = PassthroughSubject<PokemonList, Never>()
     private let pokemonFetcher: PokemonsFetcher

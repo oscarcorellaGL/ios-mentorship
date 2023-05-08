@@ -9,6 +9,6 @@ import UIKit
 
 class PokemonTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var name: UILabel!
+    @IBOutlet var name: UILabel!
 
 }

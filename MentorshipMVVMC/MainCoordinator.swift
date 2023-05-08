@@ -11,6 +11,7 @@ class MainCoordinator: Coordinator {
     
     var childCoordinators =  [Coordinator]()
     var navigationController: UINavigationController
+    //crear request manager de la clase y arrancarlo en genial
     
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
@@ -29,13 +30,7 @@ class MainCoordinator: Coordinator {
     }
     
     func seeDetails(pokemon: Pokemon) {
-        let requestManager = RequestManager()
-        let fetchPokemonDetailsService = FetchPokemonDetailsService(requestManager: requestManager)
-        let detailsViewModel = PokemonDetailsViewModel(pokemonDetailsFetcher: fetchPokemonDetailsService)
-        let vc = PokemonDetailsViewController.instantiate()
-        vc.coordinator = PokemonDetailsCoordinator(navigationController: navigationController)
-        vc.selectedPokemon = pokemon
-        vc.pokemonDetailsViewModel = detailsViewModel
-        navigationController.pushViewController(vc, animated: true)
+        let coordinator = PokemonDetailsCoordinator(navigationController: navigationController, pokemon: pokemon)
+        coordinator.start()
     }
 }

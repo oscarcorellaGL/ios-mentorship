@@ -18,6 +18,7 @@ class APIManager: APIManagerProtocol {
     self.urlSession = urlSession
   }
 
+  //Hacerlo con closures y no con async await
   func perform(_ request: RequestProtocol) async throws -> Data {
     let (data, response) = try await urlSession.data(for: request.createURLRequest())
     guard let httpResponse = response as? HTTPURLResponse,

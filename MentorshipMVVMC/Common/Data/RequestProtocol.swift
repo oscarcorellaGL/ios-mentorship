@@ -25,11 +25,6 @@ extension RequestProtocol {
         "https://pokeapi.co/api/v2/"
     }
     func createURLRequest() throws -> URLRequest {
-//        var components = URLComponents()
-//        components.scheme = "https"
-//        components.host = host
-//        components.path = path
-//        let url = components.url
         let url = URL(string: host+path)
         var urlRequest = URLRequest(url: url!)
         urlRequest.httpMethod = requestType.rawValue
